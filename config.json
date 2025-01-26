@@ -56,8 +56,8 @@
       "settings": {
         "clients": [
           {
-            "id": "f2f8f751-eb23-4c64-8324-f9a2b95cad22",
-            "email": "568244320@qq.com",
+            "id": "d138c2fc-949b-449c-aa80-ffef95f6b582",
+            "email": "justkissagain@qq.com",
             "flow": "xtls-rprx-vision",
             "level": 0
           }
@@ -133,12 +133,9 @@
     "domainStrategy": "AsIs",
     "rules": [
       {
-        "type": "field",
-        "domain": [
-          "domain:enai.com",
-          "domain:ai.com"
-        ],
-        "outboundTag": "WARP"
+        "type": "field"
+        "outboundTag": "WARP",
+        "network": "tcp,udp"
       }
     ]
   }
