@@ -84,7 +84,7 @@
             {
               "ocspStapling": 3600,
               "certificateFile": "/root/cert/fullchain.cer",
-              "keyFile": "/root/cert/dooi.eu.org.key"
+              "keyFile": "/root/cert/imeet.eu.org.key"
             }
           ],
           "minVersion": "1.2",
